@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:padding="5dp">
+    <LinearLayout
+        android:background="@color/colorOrangeDark"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_B"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="B"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_C"
+            android:background="@color/colorOrangeLight"
+            android:gravity="center"
+            android:text="C"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</LinearLayout>
+ 

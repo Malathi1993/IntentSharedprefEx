@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SharedPrefActivity">
+    <Button
+        android:id="@+id/btn1_Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DisPlay"
+        android:background="@color/colorOrangeLight"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv1_name"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:textStyle="bold"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/tv1_number"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:textStyle="bold"
+        android:text="Number"/>
+
+</LinearLayout>
